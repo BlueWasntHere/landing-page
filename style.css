@@ -17,7 +17,7 @@ body {
 
 .sec1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex: 12 1 auto;
     min-height: 40vh;
