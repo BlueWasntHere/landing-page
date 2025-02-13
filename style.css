@@ -86,7 +86,7 @@ body {
 
 .subtext {
     text-align: center;
-    max-width: 200px
+    width: 200px
 }
 
 .logo {
@@ -116,13 +116,26 @@ body {
     color:#E5E7EB;
 }
 
+.placeholder {
+    width: 240px
+}
+
 .hero-sub,
 .hLink {
     font-size: 18px;
 }
 
+.hLink {
+    width: 120px;
+}
+
+.hero-sub {
+    width: 400px;
+}
+
 .hero-main {
     font-size: 48px;
+    width: 400px;
 }
 
 .header,
@@ -163,11 +176,13 @@ button {
 
 .head-cta {
     font-weight: bold;
-    margin-left: 125px
+    margin-left: 125px;
+    width: 300px;
 }
 
 .sub-cta {
     margin-left: 100px;
+    width: 500px;
 }
 
 .cta-button {
@@ -178,8 +193,8 @@ button {
     font-style: italic;
     font-weight: lighter;
     margin-left: 15px;
-    max-height: 100px;
-    max-width: 900px;
+    height: 100px;
+    width: 900px;
 }
 
 .quoter {
